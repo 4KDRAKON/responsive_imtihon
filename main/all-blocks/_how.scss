@@ -1,0 +1,100 @@
+.how {
+    margin-top: 100px;
+
+    // .container {
+    //     text-align: center;
+    // }
+}
+
+.how__title {
+    margin-bottom: 60px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 48.44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+}
+
+.how__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+
+}
+
+.item__title {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.item__text {
+    max-width: 324px;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width:965px){
+    .how__list{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .item__text{
+        margin-left: 280px;
+        text-align: center;
+        
+    }
+}
+@media only screen and (max-width:926px){
+    .item__text{
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width:902px){
+    .item__text{
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width:774px){
+    .item__text{
+        margin-left: 150px;
+    }
+
+}
+@media only screen and (max-width:684px){
+    .item__text{
+        margin-left: 100px ;
+    }
+
+}
+@media only screen and (max-width:562px){
+    .item__text{
+        margin-left: 50px ;
+    }
+
+}
+
+@media only screen and (max-width:443px){
+    .item__text{
+        margin-left: 0px ;
+    }
+}
+
+    
+
+    
